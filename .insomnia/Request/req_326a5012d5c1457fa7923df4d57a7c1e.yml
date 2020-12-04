@@ -1,0 +1,23 @@
+_id: req_326a5012d5c1457fa7923df4d57a7c1e
+type: Request
+parentId: wrk_1152702db17946a1af584a433a68b3e8
+modified: 1607099526908
+created: 1604954268711
+url: "{{ public_base_url }}/health"
+name: /health
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

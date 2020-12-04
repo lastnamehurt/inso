@@ -1,0 +1,18 @@
+_id: env_b4c631102ec47c316faf076130d8f2e8a2781d2b
+type: Environment
+parentId: wrk_1152702db17946a1af584a433a68b3e8
+modified: 1607099364942
+created: 1607099221179
+name: Base Environment
+data:
+  scheme: https
+  base_path: ""
+  host: api.density.io
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1607099221180

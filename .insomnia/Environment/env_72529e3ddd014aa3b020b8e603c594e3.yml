@@ -1,0 +1,20 @@
+_id: env_72529e3ddd014aa3b020b8e603c594e3
+type: Environment
+parentId: env_b4c631102ec47c316faf076130d8f2e8a2781d2b
+modified: 1607099540061
+created: 1607099253822
+name: staging
+data:
+  base_url: "{{ scheme }}://{{ host }}{{ base_path }}"
+  private_base_url: http://counts-api.lab.density.io
+  public_base_url: https://core-staging.density.io/preview
+  token: ""
+dataPropertyOrder:
+  "&":
+    - base_url
+    - private_base_url
+    - public_base_url
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1607099253822
